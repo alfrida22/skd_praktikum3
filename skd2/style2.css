@@ -1,0 +1,39 @@
+body{
+    height: 100vh;
+    background-image: url(foto/bg.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+/* Output box styling */
+.output-box {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #d6a1a1;
+    border: 1px solid #af5555;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    text-align: left;
+    color: #53292e; /* Warna teks */
+    font-size: 25px;
+}
+
+/* Output text styling */
+.output-text {
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+/* Result styling */
+.result {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+/* Styling untuk memisahkan hasil enkripsi dan input */
+.output-separator {
+    border-top: 1px solid #c96262;
+    margin-top: 10px;
+    padding-top: 10px;
+}
