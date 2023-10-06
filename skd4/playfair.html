@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Playfair Cipher</title>
+    <link rel="stylesheet" href="style1.css">
+</head><!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Program Playfair Cipher</h1>
+        <h2>Enkripsi</h2>
+        <form action="enkripsi.php" method="post">
+            <label for="plaintext">Masukkan plaintext:</label><br>
+            <input type="text" id="plaintext" name="plaintext" required><br>
+            <label for="encryptionKey">Masukkan kata kunci:</label><br>
+            <input type="text" id="encryptionKey" name="encryptionKey" required><br>
+            <input type="submit" name="encrypt" value="Enkripsi">
+        </form>
+
+        <h2>Deskripsi</h2>
+        <form action="deskripsi.php" method="post">
+            <label for="ciphertext">Masukkan ciphertext:</label><br>
+            <input type="text" id="ciphertext" name="ciphertext" required><br>
+            <label for="decryptionKey">Masukkan kata kunci:</label><br>
+            <input type="text" id="decryptionKey" name="decryptionKey" required><br>
+            <input type="submit" name="decrypt" value="Deskripsi">
+        </form>
+    </div>
+</body>
+</html>
